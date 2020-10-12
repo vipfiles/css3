@@ -49,31 +49,3 @@ body,html {
 	width: 100%
 }
 
-
-
-.wave {
-	opacity: .6;
-	position: absolute;
-	bottom: 40%;
-	left: 50%;
-	width: 6000px;
-	height: 6000px;
-	background: #000;
-	margin-left: -3000px;
-	-webkit-transform-origin: 50% 48%;
-	transform-origin: 50% 48%;
-	border-radius: 46%;
-	-webkit-animation: wave 12s infinite linear;
-	animation: wave 12s infinite linear;
-	pointer-events: none
-}
-
-.wave2 {
-	-webkit-animation: wave 28s infinite linear;
-	animation: wave 28s infinite linear;
-	opacity: .3
-}
-
-
-
-
