@@ -50,36 +50,6 @@ body,html {
 	width: 100%
 }
 
-.under,.under__content,.under__footer {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-align: center;
-	align-items: center;
-	-ms-flex-pack: center;
-	justify-content: center
-}
-
-.under,.under__content {
-	-ms-flex-direction: column;
-	flex-direction: column
-}
-
-.under__footer,.under__text,.under__title {
-	-webkit-animation: charge .5s both;
-	animation: charge .5s both
-}
-
-.under__footer {
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	max-width: 600px;
-	opacity: 0;
-	-webkit-animation-delay: .5s;
-	animation-delay: .5s
-}
-
-
-
 
 
 
