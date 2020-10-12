@@ -7,7 +7,7 @@
 .under__text{padding:2rem 0;color:#f0ffff;opacity:0;animation:charge .5s .3s forwards;font-size:1.2rem;font-family:tajawal}
 .under__subtitle,.under__text,.under__title{backface-visibility:hidden}
 .under__footer{flex-wrap:wrap;max-width:600px;opacity:0;animation:charge .5s .5s forwards}
-.under,.under__content,.under__footer{display:flex;align-items:center;justify-content:center}
+.under,.under__content,.under__footer{display:flex;align-items:center;justify-content:center;margin:40px;}
 .under__content,.under__footer{width:100%;position:relative;z-index:100}
 .under__footer a{font-size:20px;color:#fff;padding:5px 10px;background-color:blue;margin:2px;border-radius:3px;width:40px;transition:background .3s;text-align:center;}
 .wave{position:absolute;bottom:40%;left:50%;width:6000px;height:6000px;background:#002d73;margin-left:-3000px;transform-origin:50% 48%;border-radius:46%;pointer-events:none}
