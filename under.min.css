@@ -24,7 +24,6 @@
 @font-face {font-family:'Tajawal';font-style:normal;font-weight:500;
 src: local('Tajawal Medium'), local('Tajawal-Medium'), url(https://fonts.gstatic.com/s/tajawal/v3/Iurf6YBj_oCad4k1l8KiHrRpiYlJ.woff2) format('woff2');
 unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;}
-body,html{font-size:12px;overflow:hidden;text-align:center;font-family:'Work Sans',sans-serif;line-height:1.4;overflow:hidden;width:100%}
 *,:after,:before{box-sizing: border-box}
 
 
