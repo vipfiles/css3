@@ -1,15 +1,15 @@
  
 .under{background-color:#C1D9F2;width:100%;overflow:hidden;position:relative}
-.under,.under__content{flex-direction:column}
+.under,.under-content{flex-direction:column}
 .under,body,html{height:100vh;overflow:hidden;width:100%;margin:0 auto;}
-.under__title{font-weight:400;opacity:0;animation:charge .5s forwards;font-size:2.8rem;font-family:tajawal;color:white;}
-.under__subtitle,.under__title{margin:0}
-.under__text{padding:2rem 0;color:#f0ffff;opacity:0;animation:charge .5s .3s forwards;font-size:1.2rem;font-family:tajawal}
-.under__subtitle,.under__text,.under__title{backface-visibility:hidden}
-.under__footer{flex-wrap:wrap;max-width:600px;opacity:0;animation:charge .5s .5s forwards}
-.under,.under__content,.under__footer{display:flex;align-items:center;justify-content:center}
-.under__content,.under__footer{width:100%;position:relative;z-index:100;margin:40px;}
-.under__footer a{font-size:20px;color:#fff;padding:5px 10px;background-color:blue;margin:2px;border-radius:3px;width:40px;transition:background .3s;text-align:center;}
+.under-title{font-weight:400;opacity:0;animation:charge .5s forwards;font-size:2.8rem;font-family:tajawal;color:white;}
+.under-subtitle,.under-title{margin:0}
+.under-text{padding:2rem 0;color:#f0ffff;opacity:0;animation:charge .5s .3s forwards;font-size:1.2rem;font-family:tajawal}
+.under-subtitle,.under-text,.under-title{backface-visibility:hidden}
+.under-footer{flex-wrap:wrap;max-width:600px;opacity:0;animation:charge .5s .5s forwards}
+.under,.under-content,.under-footer{display:flex;align-items:center;justify-content:center}
+.under-content,.under-footer{width:100%;position:relative;z-index:100;margin:40px;}
+.under-footer a{font-size:20px;color:#fff;padding:5px 10px;background-color:blue;margin:2px;border-radius:3px;width:40px;transition:background .3s;text-align:center;}
 .wave{position:absolute;bottom:40%;left:50%;width:6000px;height:6000px;background:#002d73;margin-left:-3000px;transform-origin:50% 48%;border-radius:46%;pointer-events:none}
 .wave2{animation:wave 28s infinite linear;opacity:.3}.wave3{animation:wave 20s infinite linear;opacity:.1}
 
